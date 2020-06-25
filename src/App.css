@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+}
+
+Navbar {
+  display: flex;
+  justify-content: space-around ;
+  align-items: center;
+  min-height: 10vh;
+  background: lightseagreen;
+  color: black;
+}
+
+
+
+.nav-Link{
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
