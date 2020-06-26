@@ -5,7 +5,7 @@ function Footer() {
         <footer>
 
             <marquee width="60%" direction="right" height="100px">
-                Specialist in Japanese SUV's.
+                A trial will convince you .....
             </marquee>
 
 

@@ -7,39 +7,45 @@ function Nav() {
     return (
         <div>
             <h1>Victor & Son</h1>
-            <p> A trial will convince you....</p>
+            <p> Accredited Japanese SUV's Dealer....</p>
             <nav>
 
                 <a className="topnav"></a>
                 <a className="nav-link"></a>
 
-                    <Link to="/Home">
-                    <a className="active" href="#home">Home</a>
-                    </Link>
 
-                    <Link to="/AboutUs">
-                    <a >AboutUs</a>
-                    </Link>
+                <Link to="/Home">
+                    <button type="button">Home</button>
+                </Link>
 
-                    <Link to="/Service">
-                    <a href="services">Services</a>
-                    </Link>
 
-                    <Link to="/Sales">
-                    <a href="sales">Sales</a>
-                    </Link>
+                <Link to="/AboutUs">
+                    <button type="button">AboutUs!</button>
+                </Link>
 
-                    <Link to="/Stock">
-                    <a href="stock">Stock</a>
-                    </Link>
 
-                    <Link to="/Contact">
-                    <a href="contact">Contact</a>
-                    </Link>
+                <Link to="/Service">
+                    <button type="button">Service</button>
+                </Link>
+
+                <Link to="/Sales">
+                    <button type="button">Sales</button>
+                </Link>
+
+                <Link to="/Stock">
+                    <button type="button">Stock</button>
+                </Link>
+
+                <Link to="/Contact">
+                    <button type="button">Contact</button>
+                </Link>
+
             </nav>
 
+
         </div>
-)
+    )
 
 }
+
 export default Nav;

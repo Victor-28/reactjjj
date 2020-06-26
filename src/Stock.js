@@ -4,8 +4,8 @@ function Stock() {
     return (
         <div>
             <div>
-                <h1>Victor & Son's</h1>
-                <p>Accredited Dealer of SUV's</p>
+                <h1>Stock</h1>
+
             </div>
                 <ol >
                     <li>Nissan Qashqui full option</li>

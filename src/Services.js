@@ -1,7 +1,7 @@
 import React from "react"
 
 function Services() {
-    return <h2>Sales, servicing, Insurance and Registration</h2>
+    return <h2>Sales, Servicing, Insurance and Registration</h2>
 
 }
 

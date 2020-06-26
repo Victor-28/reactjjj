@@ -17,18 +17,39 @@ function App() {
         <div>
             <div className="App">
                 <div className="App-header">
-                    <Nav/>
+
+
+
 
                     <Router>
+                        <Nav/>
                         <Switch>
-                        <Route path="/Home" Componenent={Home}/>
-                        <Route path="/AboutUs" Component={AboutUs}/>
-                        <Route path="/Services" Component={Services}/>
-                        <Route path="/Sales" Component={Sales}/>
-                        <Route path="/Stock" Component={Stock}/>
-                        <Route path="/Contact" Component={Contact}/>
+                        <Route path="/Home">
+                            <Home/>
+                        </Route>
+
+                        <Route path="/AboutUs">
+                        <AboutUs/>
+                        </Route>
+
+                        <Route path="/Service">
+                            <Services/>
+                        </Route>
+
+                        <Route path="/Sales">
+                            <Sales/>
+                        </Route>
+
+                        <Route path="/Stock">
+                            <Stock/>
+                        </Route>
+
+                        <Route path="/Contact">
+                            <Contact/>
+                        </Route>
                     </Switch>
                 </Router>
+
 
                 </div>
                 <img
