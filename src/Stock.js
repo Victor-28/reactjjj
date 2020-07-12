@@ -1,4 +1,5 @@
 import React from "react";
+import Car from "./Cars";
 
 function Stock() {
     return (
@@ -7,45 +8,36 @@ function Stock() {
                 <h1>Stock</h1>
 
             </div>
-                <ol >
-                    <li>Nissan Qashqui full option</li>
-                    <p>Business Pack</p>
+                <ol>
+                    <Car car="Nissan qushqai" type="Business Pack" color="sky blue" image="../nissan qushqai.jpeg"/>
 
-                    <li>Toyota Rav4 full option</li>
-                    <p>Classic Park</p>
+                    <Car car="Toyota Rav4" type="Classic Pack" color="silver" image="../toyota.jpeg"/>
 
-                    <li>Honda CR-V full option</li>
-                    <p>Business Pack</p>
+                    <Car car="honda cr-v" type="Business Pack" color="wine" image="../honda cr-v.jpeg"/>
 
-                    <li>Nissan Qashqui full option</li>
-                    <p>Classic Pack</p>
+                    <Car car="nissan qushqai" type="Classic Pack"color="black" image="../nissan qushqaib.jpeg"/>
 
-                    <li>Nissan Patrol full option</li>
-                    <p>Business Pack</p>
+                    <Car car="nissan patrol" type="Business Pack" color="silver" image="../nissan patrol.jpeg"/>
 
-                    <li>Mazda CX-5 full option</li>
-                    <p>Elegant Pack</p>
+                    <Car car="Mazda cx-5" type= "Business Park" color="red" image="../mazda cx-5.jpeg"/>
 
-                    <li>Subaru Forester full option</li>
-                    <p>Classic Pack</p>
+                    <Car car="Subaru Forester sti" type="Classic Pack" color="black" image="../subaru forester sti.jpeg"/>
 
-                    <li>Toyota Land-Cruiser full option</li>
-                    <p>Business Pack</p>
+                    <Car car="Nissan Patrol sti"  type="Business Pack" color="light brown" image="../nissan patrol sti.jpeg"/>
 
-                    <li>Mitsubishi Pajero full option</li>
-                    <p>Business Pack</p>
+                    <Car car="mitsubishi pajero" type="Business Park" color="white" image="../Mitsubishi pajero.jpeg"/>
 
-                    <li>Subaru Forester full option</li>
-                    <p>Business Park</p>
+                    <Car car="subaru forester" type="Business Park" color="lemon" image=" ../subaru forester.jpeg"/>
 
-                    <li>Mazda CX-5 full option</li>
-                    <p>Classic Pack</p>
+                    <Car car="mazda cx-5" type="Business Pack" color="black" image="../mazda cx-5.jpeg"/>
 
-                    <li>Honda CR-V full option</li>
-                    <p>Business Pack</p>
+                    <Car car="honda cr-v" type="Business Pack" color="red" image="../honda cr-v.jpeg"/>
+
                 </ol>
             </div>
     )
                     }
+
 export default Stock;
 
+//props
